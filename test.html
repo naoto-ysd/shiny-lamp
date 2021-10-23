@@ -7,7 +7,7 @@
 <body>
 <!-- 1. CDNからのVueの読み込み -->
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.js"></script>
-<div id="app"><!-- 5. Vueインスタンスの有効範囲ここから -->
+<div id="test"><!-- 5. Vueインスタンスの有効範囲ここから -->
     <!-- 6. マスタッシュ構文 -->
     <p>Hello {{world}}</p>
     <p>Counter: {{count}}</p>
@@ -17,10 +17,14 @@
     <input v-model="world"><br>
     <input type="number" v-model="count" />
 </div>
+
+<div id="app1">
+    app1: {{message}}
+</div>
 <script>
     // 2. Vueインスタンスの作成
     new Vue({
-        el: "#app",  // 3. elプロパティ
+        el: "#test",  // 3. elプロパティ
         data() {     // 4. data()メソッド
             return {
                 world: "Vue",
@@ -28,6 +32,17 @@
             }
         }
     })
+
+    const App1 = {
+        data(){
+            return{
+                message: "hello"
+            }
+        }
+    }
+
+    app1 = Vue.createApp(App1)
+    app1.mount('#app1')
 </script>
 </body>
 
