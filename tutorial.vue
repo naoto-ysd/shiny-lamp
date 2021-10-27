@@ -7,12 +7,12 @@
 <body>
 <!-- 1. CDNからのVueの読み込み -->
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.js"></script>
-<div id="test"><!-- 5. Vueインスタンスの有効範囲ここから -->
+<div id="app"><!-- 5. Vueインスタンスの有効範囲ここから -->
     <!-- 6. マスタッシュ構文 -->
     <p>Hello {{world}}</p>
     <p>Counter: {{count}}</p>
     <!-- 7. v-ifディレクティブ -->
-    <p v-if="count == 5">見えたよ！</p>
+    <p v-if="count == 5">The value is now true.</p>
     <!-- 8. v-modelディレクティブ -->
     <input v-model="world"><br>
     <input type="number" v-model="count" />
@@ -21,7 +21,7 @@
 <script>
     // 2. Vueインスタンスの作成
     new Vue({
-        el: "#test",  // 3. elプロパティ
+        el: "#app",  // 3. elプロパティ
         data() {     // 4. data()メソッド
             return {
                 world: "Vue",
