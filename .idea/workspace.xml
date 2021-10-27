@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a80433f3-d6e0-48c2-a806-861a85d8ea2d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial.html" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial.vue" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1633804338098</updated>
       <workItem from="1633804340701" duration="2221000" />
-      <workItem from="1635000126536" duration="2880000" />
+      <workItem from="1635000126536" duration="3076000" />
     </task>
     <servers />
   </component>
