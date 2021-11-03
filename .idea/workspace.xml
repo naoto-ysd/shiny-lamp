@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a80433f3-d6e0-48c2-a806-861a85d8ea2d" name="Changes" comment="operation comfirmation">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/access.rb" beforeDir="false" afterPath="$PROJECT_DIR$/access.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +67,7 @@
       <updated>1633804338098</updated>
       <workItem from="1633804340701" duration="2221000" />
       <workItem from="1635000126536" duration="4419000" />
+      <workItem from="1635858297179" duration="3086000" />
     </task>
     <task id="LOCAL-00001" summary="operation comfirmation">
       <created>1635518974124</created>
