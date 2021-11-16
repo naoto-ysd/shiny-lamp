@@ -29,6 +29,25 @@ const app = new Vue({
     // 初期値を「-1」つまり「すべて」にする
     current: -1
   },
+
+  computed: {
+    computedTodos: function() {
+      // データ current が -1 ならすべて
+      // それ以外なら current と state が一致するものだけに絞り込む
+      return this.todos.filter(function(el) {
+        return this.current < 0 ? true : this.current === el.state
+      }, this)
+    },
+
+    labels() {
+      return this.options.reduce(function(a, b) {
+        return Object.assign(a, { [b.value]: b.label })
+      }, {})
+      // キーから見つけやすいように、次のように加工したデータを作成
+      // {0: '作業中', 1: '完了', -1: 'すべて'}
+    }
+  },
+
   methods: {
     // ToDo 追加の処理
     doAdd: function(event, value) {
